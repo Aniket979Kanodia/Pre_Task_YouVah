@@ -1,0 +1,291 @@
+.container-footer{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer-head{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Footer-head-main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+font-size: 48px;
+line-height: 130%;
+/* or 62px */
+
+text-align: center;
+
+/* Text Primary */
+
+color: #181B32;
+
+}
+
+.Footer-head-sub{
+    font-weight: 300;
+font-size: 18px;
+line-height: 190%;
+/* or 34px */
+
+text-align: center;
+
+/* Body text */
+
+color: #666680;
+
+}
+
+.Footer-contactme{
+    display: flex;
+    padding-top: 30px;
+}
+
+Footer-contactme-email{
+    padding-right: 10px;
+}
+
+.email-input{
+    outline: none;
+    width: 410px;
+height: 64px;
+
+background: #F8FAFE;
+border-radius: 73px;
+    border: none;
+    padding-left: 20px;
+    
+
+}
+
+.email-input::placeholder{
+    padding-left: 30px;
+    font-weight: 300;
+font-size: 18px;
+}
+
+.email-submit{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+border: none;
+width: 110px;
+height: 64px;
+
+/* Primary 200 */
+
+background: #524FD5;
+border-radius: 73px;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+/* Background - White */
+
+color: #FFFFFF;
+
+}
+
+.Footer-end{
+    display: flex;
+    justify-content: space-around;
+    background: #F8FAFE;
+border-radius: 40px;
+margin-top: 160px;
+width: 1240px;
+height: 352px;
+}
+
+.Footer-end-logo{
+    margin-top: 55px;
+    margin-left: 70px;
+
+width: 260px;
+height: 127px;
+}
+
+.end-address{
+    font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* or 200% */
+
+
+/* Body text */
+
+color: #666680;
+
+padding-top: 30px;
+
+}
+
+.end-logo{
+    font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+}
+
+.Footer-end-company{
+    margin-top: 52px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Text Primary */
+color: #181B32;
+
+}
+.Footer-end-product{
+    margin-top: 52px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Text Primary */
+color: #181B32;
+
+}
+.Footer-end-legal{
+    margin-top: 52px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Text Primary */
+color: #181B32;
+
+}
+.Footer-end-company-sub{
+    font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Body text */
+
+color: #666680;
+}
+
+.Footer-end-company-sub>ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.Footer-end-company-sub>ul>li{
+    margin-top: 15px
+    
+}
+
+
+.product-list{
+    font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Body text */
+
+color: #666680;
+}
+
+.product-list>ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.product-list>ul>li{
+    margin-top: 15px
+    
+}
+
+.Legal-list{
+    font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Body text */
+
+color: #666680;
+}
+
+.Legal-list>ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.Legal-list>ul>li{
+    margin-top: 15px
+    
+}
+
+.logo-left{
+    margin-top: 4px;
+height: 14px;
+width: 28px;
+border-radius: 2px;
+background: #524fd5;
+transform: skew(-40deg);
+rotate: 142deg;
+}
+
+.logo-right{
+    margin-top: 4px;
+margin-left: 21px;
+position: absolute;
+height: 14px;
+width: 28px;
+border-radius: 2px;
+background: #e8e8f6;
+transform: skew(-40deg);
+rotate: 142deg;
+
+}
+
+.logo-text{
+    margin-left: 20px;
+}
+.Footer-end-socials{
+    margin-top: 55px;
+    
+}
+
+.social{
+    margin-right: 30px;
+}

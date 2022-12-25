@@ -1,0 +1,93 @@
+.container-student{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    
+}
+
+.student-image{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60px;
+    overflow: hidden;
+background: #FCEAE3;
+padding-top: 50px;
+justify-content:center ;
+/* margin-left: 75px; */
+
+}
+.Header{
+    padding-left: 100px;
+}
+.header-sub{
+    font-weight: 700;
+font-size: 18px;
+line-height: 190%;
+/* or 34px */
+
+text-transform: uppercase;
+
+/* Outline dark */
+
+color: #B0B0C0;
+}
+
+.header-main{
+    font-weight: 300;
+font-size: 48px;
+line-height: 130%;
+
+color: #181B32;
+}
+
+.description{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.student-data{
+    width:610px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.student-data-name{
+    font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+}
+
+.student-data-course{
+    display: flex;
+    padding-top: 20px;
+}
+
+.course-detail{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.student-data-discription{
+    font-weight: 300;
+font-size: 26px;
+line-height: 180%;
+/* or 47px */
+
+
+/* Text Primary */
+
+color: #181B32;
+padding-top: 30px;
+
+}

@@ -1,0 +1,68 @@
+.teachers-container{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.teachers-header-sub{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 190%;
+/* or 34px */
+
+text-transform: uppercase;
+
+/* Outline dark */
+
+color: #B0B0C0;
+}
+.teachers-header-main{
+    font-weight: 300;
+font-size: 48px;
+line-height: 130%;
+color: #181B32;
+}
+
+.teachers-disc{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.teacher-img > img{
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.disc-name{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #181B32;
+}
+.disc-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.carousel-button-group{
+    position:absolute;
+    top: 1560px;
+    right: 310px;
+    
+}
+
+.teacher-card{
+    padding-top: 50px;
+}
+
+.button-prev{
+    border-radius: 20px;
+    margin-left: 5px;
+    background:#524FD5;
+    
+    height: 40px;
+    width: 40px;
+    border: none;
+}
